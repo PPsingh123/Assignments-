@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="root" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment1.BasketballPlayerGUI">
+  <padding>
+    <Insets right="10.0" bottom="10.0" left="10.0"/>
+  </padding>
+
+  <center>
+    <BarChart fx:id="chart" BorderPane.alignment="CENTER">
+      <xAxis>
+        <CategoryAxis/>
+      </xAxis>
+      <yAxis>
+        <NumberAxis/>
+      </yAxis>
+    </BarChart>
+  </center>
+
+  <bottom>
+    <Button fx:id="switchButton" text="Switch View" BorderPane.alignment="CENTER">
+      <BorderPane.margin>
+        <Insets top="10.0"/>
+      </BorderPane.margin>
+    </Button>
+  </bottom>
+</BorderPane>

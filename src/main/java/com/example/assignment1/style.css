@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.chart-bar {
+    -fx-bar-fill: #3d85c6;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #d9d9d9;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-alignment: CENTER;
+}
